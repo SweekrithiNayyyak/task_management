@@ -1,7 +1,6 @@
 # task_management
 # 📁 Full Project Setup for Flask + PostgreSQL Task Manager API
 
-This is a full structure and content dump to get your project running.
 
 ---
 
