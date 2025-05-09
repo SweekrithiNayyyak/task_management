@@ -59,7 +59,7 @@ A simple REST API to manage users, projects, and tasks with dependencies.
 ### 1. Clone the repository
 ```
 
-git clone [https://github.com/yourusername/task-manager.git](https://github.com/yourusername/task-manager.git)
+git clone https://github.com/SweekrithiNayyyak/task_management.git
 cd task-manager
 
 ```
@@ -144,16 +144,3 @@ The app runs at `http://localhost:5000`
 * `GET /tasks/user/<user_id>` – Tasks assigned to a user
 * `GET /tasks/status/<status>` – Tasks by status
 
-## ✅ Notes
-
-* Task status must be one of: `PENDING`, `IN_PROGRESS`, `COMPLETED`
-* A task cannot be completed unless all dependencies are completed
-* Circular dependencies are not automatically detected (yet)
-
-```
-
----
-
-[The rest of the project files remain unchanged...]
-
-```
